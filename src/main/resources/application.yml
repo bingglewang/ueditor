@@ -1,0 +1,30 @@
+spring:
+  http:
+    multipart:
+      enabled: true
+      max-file-size: -1
+      max-request-size: -1
+ueditor:
+  config: config.json
+  unified: true
+  upload-path: https://zs-1256645015.cos.ap-guangzhou.myqcloud.com/trace/
+  url-prefix: https://zs-1256645015.cos.ap-guangzhou.myqcloud.com/trace/
+
+tengxunyun:
+  # 腾讯对象存储COS
+  cos:
+    # 密钥
+    accessKey: AKIDS03wd33LFwNceU7OSFqAIRvV0JL94z3t
+    secretKey: tW9XfXRCwRjjGbgTO2PYUZP3RzauylIR
+    # 所属区域
+    bucket: ap-guangzhou
+    # 存储桶名称
+    bucketName: zs-1256645015
+    # 访问路劲
+    path: https://zs-1256645015.cos.ap-guangzhou.myqcloud.com
+    # 路径前缀
+    qianzui: trace
+    # 存放服务器
+    locationServer: 腾讯COS
+
+
